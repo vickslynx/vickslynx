@@ -6,7 +6,19 @@
   clear: both;
   content: "";
 }
+.skip-to-content-link {
+  background: #e77e23;
+  height: 30px;
+  left: 50%;
+  padding: 8px;
+  position: absolute;
+  transform: translateY(-100%);
+  transition: transform 0.3s;
+}
 
+.skip-to-content-link:focus {
+  transform: translateY(0%);
+}
 /* FIX */
 .hairline {
 	border-top: thin;
@@ -58,6 +70,8 @@ a, a.active {
     -webkit-transition: color .3s ease-in-out;
 	cursor: hand;
 }
+/*a:hover {text-decoration-line: none;}
+.nav-link a {text-decoration-line: none;}*/
 
 /* for rounded image - crop image to square */
 .rounded-circle {

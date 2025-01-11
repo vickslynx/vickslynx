@@ -3634,6 +3634,8 @@ textarea.form-control-lg {
 .nav-link:hover, .nav-link:focus {
   color: var(--bs-nav-link-hover-color);
 }
+/*.nav-link:hover, .nav-link:focus, .nav-link:visited {text-decoration-line: none;}
+*/
 .nav-link.disabled {
   color: var(--bs-nav-link-disabled-color);
   pointer-events: none;
