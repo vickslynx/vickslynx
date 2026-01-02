@@ -57,10 +57,10 @@ p, li {
   font-size: 1.25rem;
   font-weight: 300;
 }
-/* yellow wavy link line */
+/* yellow link line */
 a, a.active {
     text-decoration-line: underline;
-    text-decoration-style: wavy;
+    text-decoration-style: dotted;
     text-decoration-color: #FFD372;
     text-underline-offset: 0.3em;
     text-decoration-thickness: 2px;
